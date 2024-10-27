@@ -1,0 +1,666 @@
+/* -------------------------------------------------- */
+/* General */
+.highlightNone, img {
+    user-select: none;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #007BFF, #00C6FF);
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.businessInformation {
+    border: 2px solid #dcdcdc;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 680px;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.eCommercePlatform {
+    border: 2px solid #dcdcdc;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 680px;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.eCommercePlatform:hover {
+    border-color: #007BFF;
+    box-shadow: 4px 4px 12px rgba(0, 123, 255, 0.2);
+    transform: translateY(-5px);
+}
+
+.eCommercePlatform img {
+    transition: transform 0.3s ease;
+}
+.eCommercePlatform:hover img {
+    transform: scale(1.05);
+}
+
+.productBrandsLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.productBrandsLogo img {
+    width: 128px;
+    height: auto;
+    user-select: none;
+}
+.productBrandsLogo > div {
+    padding: 0 18px;
+}
+
+#yt-logo-header {
+    padding-right: 28px;
+}
+
+#tctFull_home {
+    border: 0.3em solid #d9a21b;
+    padding: 1em 3em;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 25em;
+}
+
+#tctFull_home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+}
+
+#deliveryMan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 150px;
+    height: auto;
+    border-radius: 0.5em;
+}
+
+
+/* Body */
+
+.home_courier_service_div
+{
+    /* margin-left: 35%; */
+    /* margin: 25% 0; */
+    /* margin: 2% 0 8% 25%; */
+}
+
+.services_package_div, .payment_pricing_div
+{
+    margin: 30px 8% 40px 8%;
+}
+
+#honeycomb_div
+{
+    padding-bottom: 2%;
+}
+
+
+/* Services */
+
+.card-body
+{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.subtitle_h5, .list_indent_td
+{
+    text-align: left;
+}
+
+.software_table_column1, .software_table_column2,
+.casio_table_column1, .casio_table_column2, .casio_table_column3,
+.logitech_table_column1, .logitech_table_column2, .logitech_table_column3,
+.logitech2_table_column1, .logitech2_table_column2, .logitech2_table_column3,
+.logitech3_table_column1, .logitech3_table_column2, .logitech3_table_column3
+{
+    padding: 0px 20px;
+    border: 1px solid;
+}
+
+.software_table_column1, .casio_table_column1, .logitech_table_column1, .logitech2_table_column1, .logitech3_table_column1
+{
+    background-color: #0073CC;
+    color: #E1F1FF;
+    padding: 10px 5px;
+}
+
+/* .casio_table_column2, .logitech_table_column2
+{
+    background-color: #72FAC9;
+    color: #2F4858;
+    padding: 10px 10px;
+} */
+
+/* .casio_table_column3, .logitech_table_column3
+{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 10px;
+} */
+
+.table_subject
+{
+    background-color: #72FAC9;
+    color: #2F4858;
+}
+
+/* SOFTWARE */
+
+.software_table_column1
+{
+    max-width: 150px;
+}
+
+.software_table_column2
+{
+    max-width: 200px;
+}
+
+/* CASIO */
+
+.casio_table_column1
+{
+    max-width: 81px;
+}
+
+.casio_table_column2, .casio_table_column3
+{
+    max-width: 116px;
+}
+
+/* LOGITECH */
+
+.logitech_table_column1
+{
+    max-width: 170px;
+}
+
+.logitech2_table_column1
+{
+    max-width: 74px;
+}
+
+.logitech3_table_column1
+{
+    max-width: 90px;
+}
+
+.logitech1_table_column2
+{
+    max-width: 142px;
+}
+
+.logitech2_table_column2
+{
+    max-width: 142px;
+}
+
+.logitech3_table_column2
+{
+    max-width: 200px;
+}
+
+/* REMOTE CONTROL BATTERY REPLACEMENT SERVICES */
+#remote_control_specification
+{
+    text-align: center;   
+}
+
+/* .table_column3
+{
+    width: 20px;
+} */
+
+table_column2:nth-child(even)
+{
+    background-color: #395975;
+}
+
+.calculator_battery_brand:hover
+{
+    background-color: coral;
+}
+
+.calculator_battery_model:hover
+{
+    background-color: coral;
+}
+
+
+
+/* .border_table, .border_table_th, .border_table_td
+{
+
+} */
+
+/* FAQs - Frequently Asked Questions */
+
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400&display=swap');
+
+/* $bg: #fff;
+$text: #7288a2;
+$gray: #4d5974;
+$lightgray: #e5e5e5;
+$blue: #03b5d2; */
+
+.faqs_container
+{
+    margin: 0 auto;
+    padding: 4rem;
+    width: 48rem;
+
+    /* body */
+    /* margin: 0; */
+    /* padding: 0; */
+    font-family: 'Hind', sans-serif;
+    background: $bg;
+    color: $gray;
+    display: flex;
+    min-height: 100vh;
+
+    /* * */
+    box-sizing: border-box;
+    &::before, &::after
+    {
+        box-sizing: border-box;
+    }    
+}
+
+.faqs_accordion
+{
+    .faqs_accordion-item
+    {
+        border-bottom: 1px solid $lightgray;
+        faqs_button[aria-expanded='true']
+        {
+            border-bottom: 1px solid $blue;
+        }
+    }
+    faqs_button
+    {
+        position: relative;
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 1em 0;
+        color: $text;
+        font-size: 1.15rem;
+        font-weight: 400;
+        border: none;
+        background: none;
+        outline: none;
+        &:hover, &:focus
+        {
+            cursor: pointer;
+            color: $blue;
+            &::after
+            {
+                cursor: pointer;
+                color: $blue;
+                border: 1px solid $blue;
+            }
+        }
+        .faqs_accordion-title
+        {
+            padding: 1em 1.5em 1em 0;
+        }
+        .faqs_icon
+        {
+            display: inline-block;
+            position: absolute;
+            top: 18px;
+            right: 0;
+            width: 22px;
+            height: 22px;
+            border: 1px solid;
+            border-radius: 22px;
+            &::before
+            {
+                display: block;
+                position: absolute;
+                content: '';
+                top: 9px;
+                left: 5px;
+                width: 10px;
+                height: 2px;
+                background: currentColor;
+            } 
+            &::after
+            {
+                display: block;
+                position: absolute;
+                content: '';
+                top: 5px;
+                left: 9px;
+                width: 2px;
+                height: 10px;
+                background: currentColor;
+            }
+        }   
+    }
+    faqs_button[aria-expanded='true']
+    {
+        color: $blue;
+        .faqs_icon
+        {
+            &::after
+            {
+            width: 0;
+            }
+        }
+        + .faqs_accordion-content
+        {
+            opacity: 1;
+            max-height: 9em;
+            transition: all 200ms linear;
+            will-change: opacity, max-height;
+        }
+    }    
+    .faqs_accordion-content
+    {
+        opacity: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: opacity 200ms linear, max-height 200ms linear;
+        will-change: opacity, max-height;
+        
+        .faqs_p
+        {
+            font-size: 1rem;
+            font-weight: 300;
+            margin: 2em 0;
+        }
+    }
+}
+
+
+/* -------------------------------------------------- */
+
+
+/* About Us */
+
+#tct_slogan
+{
+    color: #0071c5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#tct-full-logo
+{
+    /* margin: 240; */
+    width: 228px;
+    padding-top: 5px;
+}
+
+#tct-full-logo-div
+{
+    /* margin: 240; */
+    position: relative;
+    /* top: 50%;
+    left: 50%; */
+    /* -ms-transform: translate(-50%,-50%);
+    /* transform: translate(-50%,-50%) */
+}
+
+#shopee-grid-container
+{
+    background-color: #ee4e2e;
+    border: 3px solid #E6F4F1;
+    /* border-collapse: collapse; */
+    float: left;
+    width: 50%;
+    height: 160px;
+    display: inline-grid;
+    grid-template-columns: auto;
+    /* background: #ebf0f6; */
+    padding: 20px;
+}
+
+
+#shopee-left-region
+{
+    float: left;
+    width: 140px;
+    height: 240px;
+    background: #f9f871;
+    padding: 20px;
+}
+
+#shopee-right-region
+{
+    float: left;
+    width: 360px;
+    height: 140px;
+    padding: 20px;
+}
+
+#shopee-left-table
+{
+    float: left;
+    width: 200px;
+    height: 165px;
+    background: #C4D2BD;
+    padding: 20px;
+}
+
+#shopee-right-table
+{
+    float: left;
+    width: 300px;
+    height: 165px;
+    background: #F7F5DD;
+    padding: 20px;
+}
+
+#lazada-grid-container
+{
+    background-color: #0d1274;
+    border: 3px solid #E6F4F1;
+    /* float: left;
+    width: 50%;
+    height: 160px;
+    background: #fff;
+    padding: 20px; */
+}
+
+#lazada-left-region
+{
+    float: left;
+    width: 140px;
+    height: 240px;
+    background: #f9f871;
+    padding: 20px;
+    }
+
+#lazada-right-region
+{
+    float: left;
+    width: 360px;
+    height: 140px;
+    padding: 20px;
+}
+
+#lazada-left-table
+{
+    float: left;
+    width: 200px;
+    height: 165px;
+    background: #C4D2BD;
+    padding: 20px;
+}
+
+#lazada-right-table
+{
+    float: left;
+    width: 300px;
+    height: 165px;
+    background: #F7F5DD;
+    padding: 20px;
+}
+
+/* background: #ffd24c; DARK YELLOW */
+
+h2, h3, h4
+{
+    /* color: #ffffff; */
+}
+
+.shopee-left-table-h4
+{
+    color: #2F4858;
+}
+
+.shopee-right-table-h4
+{
+    color: #2F4858;
+    text-decoration: none;
+}
+
+.lazada-left-table-h4
+{
+    color: #2F4858;
+}
+
+.lazada-right-table-h4
+{
+    color: #2F4858;
+    text-decoration: none;
+}
+
+/* Neon Button */
+
+#shopee-neon-button-wrapper
+{
+    margin: 0;
+    padding-top: 160px;
+    /* padding-left: 20px; */
+    display: fixed;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: #ee4e2e;
+}
+
+#lazada-neon-button-wrapper
+{
+    margin: 0;
+    padding-top: 160px;
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: #0d1274;
+}
+
+:root
+{
+  --clr-neon1: hsl(276,100%,96%);
+  /* --clr-neon: hsl(60 92% 71%); */
+  /* --clr-neon: hsl(317 100% 54%); */
+  --clr-bg1: hsl(323 21% 16%);
+}
+
+    .shopee-neon-button
+    {
+      font-size: 18px;
+      font-weight: bold;
+      height: 55px;
+      width: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      font-family: 'League Spartan';
+      text-decoration: none;
+      color: var(--clr-neon1);
+      border: var(--clr-neon1) 3px solid;
+      background-color: transparent;
+      border-radius: 13px;
+      /* text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor; */
+      box-shadow: inset 0 0 0.5em 0 var(--clr-neon1), 0 0 0.5em 0 var(--clr-neon1);
+      transition: all 0.5s;
+    }
+     
+    .shopee-neon-button:hover
+    {
+        background-color: var(--clr-neon1);
+        color: #3B2A1F;
+        /* color: fff; */
+        font-weight: bolder;
+    }
+
+:root
+{
+  --clr-neon2: hsl(276,100%,96%);
+  /* --clr-neon: hsl(317 100% 54%); */
+  --clr-bg2: hsl(323 21% 16%);
+}
+
+    .lazada-neon-button
+    {
+      font-size: 18px;
+      font-weight: bold;
+      height: 55px;
+      width: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      font-family: 'League Spartan';
+      text-decoration: none;
+      color: var(--clr-neon2);
+      border: var(--clr-neon2) 3px solid;
+      background-color: transparent;
+      border-radius: 13px;
+      /* text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor; */
+      box-shadow: inset 0 0 0.5em 0 var(--clr-neon2), 0 0 0.5em 0 var(--clr-neon2);
+      transition: all 0.5s;
+    }
+     
+    .lazada-neon-button:hover
+    {
+        background-color: var(--clr-neon2);
+        color: #3B2A1F;
+        /* color: fff; */
+        font-weight: bolder;
+    }    
+
+
+/* -------------------------------------------------- */
+
+
+/* Footers */
+
+#yt-logo-footer
+{
+    padding-bottom: 20px;
+}
+
+
+/* -------------------------------------------------- */
