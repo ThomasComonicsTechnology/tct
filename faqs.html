@@ -21,6 +21,10 @@
         <!-- JavaScript -->
         <script src="bootstrap-5.2.3-examples\bootstrap-5.2.3-examples\assets\dist\jsbootstrap.bundle.min.js"></script>
         <script src="script_tct.js"></script>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
     </head>
 
     <!-- NAVIGATION -->
@@ -55,9 +59,153 @@
         
         <center>
             <p class="fs-5 text-muted">
-                Web Development of our FAQs page is still in progress...
+                Any doubt? Contact us now!
             </p>
-        </center>    
+        </center>
+
+
+        <div class="accordion" id="faqAccordion">
+            <!-- Question 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        1. How can I place an order?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Placing an order is simple and convenient. You can easily contact our sales team for assistance via WhatsApp by following the link below. Our team will assist you promptly to ensure your order is placed without hassle.
+                        <br>
+                        - <a href="https://api.whatsapp.com/message/UVRGLS5ZUFK6H1?autoload=1&app_absent=0" target="_blank">WhatsApp Business</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        2. What is the estimated delivery time?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Our standard delivery time is approximately 14 days. However, this may vary depending on product availability and the shipping destination. Rest assured, we make every effort to ensure your order is processed and delivered as quickly as possible, while keeping you informed throughout the process.
+                    </div>
+                </div>
+            </div>
+            <!-- Question 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        3. Do you offer international shipping?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes, we offer international shipping. Our delivery network spans across multiple countries, ensuring that you can receive your orders no matter where you are located. For more details on shipping to your specific region, feel free to contact our team.
+                    </div>
+                </div>
+            </div>
+            <!-- Question 4 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        4. Can you source hard-to-find or rare products?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Absolutely! We specialize in sourcing rare and hard-to-find industrial components. If there’s a specific product that you’re unable to locate, simply share your requirements with us, and our team will handle the rest, ensuring you get the parts you need.
+                    </div>
+                </div>
+            </div>
+            <!-- Question 5 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        5. What payment methods do you accept?
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        We accept a wide range of payment methods to provide flexibility for our clients. These include major credit cards, bank transfers, and other secure payment options. For specific payment methods available in your region, please contact our sales team, who will be happy to assist you further.
+                    </div>
+                </div>
+            </div>
+            <!-- Question 6 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        6. Is TCT a reliable registered company?
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes, Thomas Comonics Technology (TCT) is a fully registered and reliable company. We are officially recognized by the SSM (Companies Commission of Malaysia). You can trust us to provide high-quality products and services, backed by professionalism and integrity.
+                    </div>
+                </div>
+            </div>
+            <!-- Question 7 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        7. What should I provide to request a quotation?
+                    </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        To request a quotation, we require the following details: your full name, company name (if applicable), product specifications (such as brand, model, and quantity), shipping address, and any specific requests or requirements you may have. Providing this information will help us generate an accurate quotation tailored to your needs.
+                    </div>
+                </div>
+            </div>
+            <!-- Question 8 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        8. What are the major brands you offer?
+                    </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        We offer products from a variety of reputable and trusted brands. Some of the major brands we carry include Amp, Omron, Autonics, Chint, Weintek, Amsamotion, Xinje, Cikachi, Kinco, and Anly, among others.
+                    </div>
+                </div>
+            </div>
+            <!-- Question 9 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingNine">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                        9. What are the major product types you supply?
+                    </button>
+                </h2>
+                <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        We supply a wide range of industrial products, including Programmable Logic Controllers (PLCs), Human-Machine Interfaces (HMIs) Touchscreen, rotary encoders, and clutch & brake controllers. Additionally, we offer sensors, switches, counters, timers, relays, contactors, circuit breakers, and industrial motors as a minor product category.
+                    </div>
+                </div>
+            </div>
+            <!-- Question 10 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTen">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                        10. What other services do you provide, apart from being an industrial machinery automation parts retailer?
+                    </button>
+                </h2>
+                <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        In addition to offering a wide variety of industrial machinery automation electronic parts, we provide services such as machinery electrical panel repair and troubleshooting majorly in the Penang area. We also specialize in the following:
+                        <ul>
+                            <li>Electrical Control System Troubleshooting, Repairs, and Modifications</li>
+                            <li>Automation PLC Programming</li>
+                            <li>Electrical Control Panel Building and Installation for Manufacturing Plants</li>
+                        </ul>
+                        We proudly serve the Penang Mainland, Penang Island, Kedah, Perak, and beyond.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
     </div>
 
     <br class="highlightNone"><br class="highlightNone"><br class="highlightNone"><br class="highlightNone"><br class="highlightNone">
