@@ -1,0 +1,12 @@
+thead > hr > th {
+    width: 100px;
+}
+
+img {
+    width: 120px;
+    user-select: none;
+}
+
+tr > td {
+    width: 250px;
+}
