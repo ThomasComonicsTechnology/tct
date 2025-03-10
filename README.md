@@ -1,2 +1,2 @@
 # tct
-Thomas Cheapsoft Technology (TCT)
+Thomas Comonics Technology (TCT)
