@@ -67,6 +67,12 @@ hr {
     height: auto;
     user-select: none;
 }
+.productBrandsLogo img:hover {
+    transform: scale(1.15);
+    animation-delay: 0.38s;
+    transition: transform 1.8s ease;
+    cursor: pointer;
+}
 .productBrandsLogo > div {
     padding: 0 18px;
 }
